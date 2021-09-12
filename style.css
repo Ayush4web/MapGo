@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  /* color: honeydew; */
+}
+
+.main {
+  display: flex;
+  margin: 1.3rem 1.4rem;
+  flex-direction: row;
+  height: 92vh;
+  color: honeydew;
+}
+.info {
+  flex: 1;
+
+  padding: 1rem;
+  border-radius: 10px;
+  background: #2d3439;
+  position: relative;
+}
+.head {
+  text-align: center;
+}
+
+.icon {
+  color: rgb(58, 173, 12);
+}
+
+/* ----------------------------------  */
+
+.card {
+  background-color: #42484d;
+  margin-top: 3rem;
+  width: 100%;
+  height: 110px;
+  border-radius: 5px;
+  
+}
+.title {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: white;
+}
+
+.card_cont {
+  text-align: center;
+  font-size: 18px;
+}
+
+.input {
+  margin-left: 4px;
+  padding: 0 10px;
+  font-size: 18px;
+}
+.input input {
+  padding: 3px 4px;
+  width: 205px;
+  height: 22px;
+  font-size: 17px;
+  border-radius: 3px;
+  border: none;
+  color: black;
+}
+.input input:focus {
+  outline: none;
+}
+.btn {
+  font-size: 25px;
+  margin-right: 3px;
+  position: absolute;
+  transform: translateY(-3px);
+}
+.btn i:hover {
+  color: rgb(76, 230, 16);
+  cursor: pointer;
+}
+
+/* ---------------------------------- */
+
+.result {
+  margin: 1.9rem 0rem;
+  font-size: 18px;
+  
+  margin-left: 1.4rem;
+}
+.anim{
+  transition: opacity 0.5s ease ;
+  opacity: 0;
+}
+.row1 {
+  margin-bottom: 2rem;
+}
+.time {
+  margin-left: 5rem;
+}
+.row2 {
+  margin-left: 7rem;
+}
+.fetching{
+  font-size: 21px;
+  position: absolute;
+  bottom: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+.hidden{
+  transition: 1s ease;
+  display: none;
+}
+/* ------------------------------------- */
+
+.note {
+  text-align: center;
+  transform: display  ease;
+}
+.hot {
+  display: none;
+}
+.cold {
+  display: none;
+}
+.rain {
+  display: none;
+}
+
+/* ---------------------------------- */
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  bottom: 20px;
+  line-height: 23px;
+  font-family: monospace;
+}
+.footer a {
+  text-decoration: none;
+  color: honeydew;
+}
+
+/* -------------------------- */
+
+#map {
+  flex: 1.5;
+  height: 100%;
+  border-radius: 10px;
+}

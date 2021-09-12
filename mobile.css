@@ -1,0 +1,59 @@
+@media screen and (max-width: 786px) {
+    
+    .main{
+        flex-direction: column;
+        height: 780px;
+        margin: 1rem 0.6rem;
+    }
+    .info{
+       
+        flex-grow: 1.5;
+    }
+    .card{
+        width: 100%;
+        height: 90px;
+        border-radius: 8px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .card_cont{
+        font-size: 15px;
+    }
+
+    .result{
+        font-size: 14px;
+        margin-left: 13px;
+    }
+    .time{
+        margin-left: 43px;
+    }
+    .row2{
+     margin: 0;
+    text-align: center;
+        
+    }
+    
+    .fetching{
+        font-size: 19px;
+        left: 30%;
+        transform: translateX(-17%);
+
+    }
+    .note{
+        font-size: 15px;
+        line-height: 25px;
+        
+    }
+    .footer{
+        text-align: center;
+        font-size: 10px;
+        padding: 0
+         14px 0 0;
+        line-height: 18px;
+    }
+    #map{
+      flex-grow: 1;
+        
+  }
+  }
